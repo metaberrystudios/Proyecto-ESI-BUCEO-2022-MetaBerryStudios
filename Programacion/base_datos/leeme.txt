@@ -1,0 +1,2 @@
+1. Con phpmyadmin importar el archivo base.sql (se recomienda ver lo que hace)
+2. Ejecutar la aplicación (se recomienda analizar cada archivo)
