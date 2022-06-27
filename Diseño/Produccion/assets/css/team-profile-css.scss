@@ -1,0 +1,115 @@
+
+@import './event.scss';
+  .teamDisplay {
+    width: 100vw;
+    height: 20vh;
+    border-bottom: 1px black solid;
+    display: flex;
+    align-items: center;
+
+    img {
+        margin: 2%;
+        border-radius: 100%;
+        outline: 1px black solid;
+        height: 12vh;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    #result {
+        margin: 4%;
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+}
+  .innerNav {
+    width: 100vw;
+    height: 5vh;
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            font-size: 1.2em;
+            margin-left: 6%;
+            text-align: center;
+            height: 5vh;
+
+        }
+
+        li:hover {
+            border-bottom: 3px black solid;
+        }
+    }
+}
+.display {
+    display: flex;
+    .renderArea {
+        width: 60%;
+        background-color: var(--gray);
+        .card {
+            margin: 4% 5%;
+            width: 35%;
+            background-color: var(--white);
+            border-radius:20px;
+            padding: 0 0 3% 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            filter: drop-shadow(-10px 10px 10px var(--shade-purple));
+
+            .title {
+
+                border-radius: 20px 20px 0 0;
+                padding: 3% 5%;
+                width: 90%;
+                background-color: var(--white);
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                z-index: 2;
+                
+                .title2{
+
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 5%;
+
+                    p {
+                        font-size: 1.2em;
+                        font-weight: 700;
+                    }
+
+                    p:last-of-type{
+
+                        font-size: 1em;
+                        font-weight: 400;
+
+                    }
+
+                }
+
+            }
+        }
+        img {
+            border-radius: 100%;
+            outline: 1px black solid;
+            height: 8vh;
+        }
+        
+    }
+}

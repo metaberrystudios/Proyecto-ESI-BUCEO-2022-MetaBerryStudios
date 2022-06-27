@@ -1,0 +1,20 @@
+@import './_main.scss';
+@import './variables/_variables.scss';
+@import './event.scss';
+* {
+    margin: 0;
+}
+
+.resultDisplay {
+    @include set-event;  
+    .event-container{
+        height: 20vh;
+        filter: none;
+    }
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
