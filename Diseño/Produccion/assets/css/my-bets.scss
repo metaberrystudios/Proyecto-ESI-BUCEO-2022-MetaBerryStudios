@@ -10,20 +10,91 @@ p{
 }
 
 main{
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 60vh;
     .general{
-
-    }
-    .points{
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: left;
+        width: 80%;
+
+        h1{
+            padding-left: 5%;
+        }
+
+        .buttons{
+            margin: 2% 0 2% 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 50%;
+            
+            button{
+                height: 5vh;
+                width: 7vw;
+                @include primary-color-a-button;
+            }
+        }
+
+        .bets{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .bet{
+                width: 42%;
+                height: 30vh;
+                border: 1px solid var(--black);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--white);
+                border-radius: 20px;
+                filter: drop-shadow(-10px 10px 10px var(--shade-purple));
+                margin: 3% 3% 3% 3%;
+
+                .your-bet{
+                    font-size: 1.3em;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    height: 6vh;
+                    align-items: center;
+                }
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    height: 18vh;
+                    align-items: center;
+                    img{
+                        width: 20%;
+                    }
+                    .equipo{
+                        font-weight: bold;
+                    }
+                }
+            }            
+        }
+    }
+
+    .points{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
         text-align: right;
         h2{
             font-size: 1.5em;
+        }
+        p{
+            text-align: right;
         }
         
     }
