@@ -6,6 +6,11 @@
   --light-purple: #7A6DEC;
   --lightest-purple: #BCB6F6;
   --gray: #EBECEF;
+  --red: #eb3824;
+  --yellow: #E3C40E;
+  --green: #19a909;
+  --orange: #f37927;
+
 }
 
 * {
@@ -101,13 +106,13 @@
 
             .event-title{
 
-                font-weight: 700;
+              font-weight: 700;
 
             }
 
             .event-state{
 
-                font-weight: 500;
+              font-weight: 500;
 
             }
 
@@ -136,6 +141,7 @@
 
                     width: 60px;
                     padding: 20% 0;
+                    cursor: pointer;
 
                 }
 

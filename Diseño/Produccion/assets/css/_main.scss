@@ -102,33 +102,44 @@ header {
 
 //FOOTER
 footer{
-  position: absolute;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--black);
+  background-color: var(--main-purple);
   color: var(--white);
-  height: 12vh;
+  height: 15vh;
   width: 100%;
-  bottom: 0;
+  cursor: pointer;
 
   img{
-      width: 10%;
-      height: 3vh;
+
+    width: 5%;
+
   }
 
   .texts{
-      
-      width: 12%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    a{
+
+      @include set-a-link;
+      color: var(--white);
+      font-weight: 600;
+
+    }
+
   }
   
   .copyright{
-      color: var(--gray);
+    
+    font-size: 0.7em;
+
   }
 }
 //FOOTER
