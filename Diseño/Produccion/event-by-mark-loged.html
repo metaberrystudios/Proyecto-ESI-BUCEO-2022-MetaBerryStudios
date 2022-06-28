@@ -7,48 +7,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./assets/css/event-by-set.css">
+    <link rel="stylesheet" href="/assets/css/event-by-mark.css">
     <title>Document</title>
 </head>
 
 <body>
     <main>
         <header>
+
             <nav>
                 
-                <div class="header-nav-container-1">
-                    <a href=""><img src="./assets/img/logo/Recurso 19.png"></a>
-                    <a href="">How does it work?</a>
-                    <a href="">Scores</a>
-                </div>
-
-                <div class="header-nav-container-2">
-                    <button><span class="material-symbols-outlined">settings</span></button></li>
-                </div>
-
-            </nav>
-        </header>
+                <div class="log-in-header-nav-container-1">
         
+                    <a href=""><span class="material-symbols-outlined">account_circle</span></a>
+                    <a href=""><span class="material-symbols-outlined">notifications</span></a>
+                    <a href=""><span class="material-symbols-outlined">scoreboard</span></a>
+                    <a href=""><span class="material-symbols-outlined">monetization_on</span></a>
+        
+                </div>
+        
+                <a href="" class="nav-logo"><img src="./assets/img/logo/Recurso 20.png"></a>
+        
+                <div class="log-in-header-nav-container-2">
+        
+                    <form action="" class="nav-searchbar">
+        
+                        <input type="text" placeholder="Search..." name="search">
+                        <button type="submit"><span class="material-symbols-outlined">search</span></button>
+        
+                    </form>
+        
+                    <button><span class="material-symbols-outlined">settings</span></button></li>
+                    
+                </div>
+        
+            </nav>
+        
+        </header>
+
         <section class="resultDisplay">
-         <div class="player">
-            <img src="./assets/img/photos/team-logos/60px/argentina.png">
-            <p>Team name</p>
             <ul>
-                <li>0</li>
-                <li>0</li>
-                <li>0</li>
+                <li>1.
+                    <img src="./assets/img/photos/team-logos/60px/argentina.png">
+                    <p class="name">Player name</p>
+                    <p class="time">52'</p>
+                </li>
+                <li>2.
+                    <img src="./assets/img/photos/team-logos/60px/uruguay.png">
+                    <p class="name">Player name</p>
+                    <p class="time">+6'</p>
+                </li>
+                <li>3.
+                    <img src="./assets/img/photos/team-logos/60px/boca.png">
+                    <p class="name">Player name</p>
+                    <p class="time">+10'</p>
+                </li>
+                <li>4.
+                    <img src="./assets/img/photos/team-logos/60px/colombia.png">
+                    <p class="name">Player name</p>
+                    <p class="time">+12'</p>
+                </li>
             </ul>
-         </div>
-         <div class="player">
-            <img src="./assets/img/photos/team-logos/60px/uruguay.png">
-            <p>Team name</p>
             <ul>
-                <li>0</li>
-                <li>0</li>
-                <li>0</li>
+                <li>5.
+                    <img src="./assets/img/photos/team-logos/60px/peru.png">
+                    <p class="name">Player name</p>
+                    <p class="time">+13'</p>
+                </li>
+                <li>6.
+                    <img src="./assets/img/photos/team-logos/60px/peñarol.png">
+                    <p class="name">Player name</p>
+                    <p class="time">+14'</p>
+                </li>
+                <li>7.
+                    <img src="./assets/img/photos/team-logos/60px/portugal.png">
+                    <p class="name">Player name</p>
+                    <p class="time">+17'</p>
+                </li>
+                <li>8.
+                    <img src="./assets/img/photos/team-logos/60px/river.png">
+                    <p class="name">Player name</p>
+                    <p class="time">+20'</p>
+                </li>
             </ul>
-         </div>
-        </div>
         </section>
         <section class="innerNav">
             <ul>
@@ -105,12 +146,15 @@
                     <button>MAKE A BET</button>
                 </div>
                 <div class="post">
-                    <div class="cta"><p>Create a post</p> <p>#EVENT</p></div>
+                    <div class="cta">
+                        <p>Create a post</p>
+                        <p>#EVENT</p>
+                    </div>
                     <form>
                         <img src="./assets/img/placeholder.png">
                         <input type="text" placeholder="Write down your opinion here.">
-                        <button>  <span class="material-symbols-outlined">
-                            send
+                        <button> <span class="material-symbols-outlined">
+                                send
                             </span></button>
                     </form>
                 </div>
