@@ -717,7 +717,6 @@ footer .copyright {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px black solid;
 }
 .resultDisplay .player {
   width: 50%;
