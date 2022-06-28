@@ -173,9 +173,6 @@ main .principal .bets-manager {
   height: 20vh;
   justify-content: space-evenly;
 }
-main .principal .bets-manager h1 {
-  padding-bottom: 1%;
-}
 main .principal .bets-manager .buttons {
   display: flex;
   flex-direction: row;
