@@ -351,4 +351,8 @@ body .general .main .form form .div-button .button:hover:hover {
   color: var(--black);
   filter: none;
   border-radius: 10px;
+}
+body footer {
+  position: absolute;
+  bottom: 0;
 }/*# sourceMappingURL=log-in.css.map */
