@@ -1,6 +1,7 @@
 :root {
   --white: white;
   --black: black;
+  --grayish-black: rgb(75, 75, 75);
   --main-purple: #3724e3;
   --shade-purple: #2b25d93c;
   --light-purple: #7A6DEC;
@@ -79,7 +80,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        margin: 3% 0;
+        margin: 3% 0 10% 0;
         background-color: var(--white);
         border-radius: 20px;
         filter: drop-shadow(-10px 15px 20px var(--shade-purple));

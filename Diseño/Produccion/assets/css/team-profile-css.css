@@ -2,6 +2,7 @@
 :root {
   --white: white;
   --black: black;
+  --grayish-black: rgb(75, 75, 75);
   --main-purple: #3724e3;
   --shade-purple: #2b25d93c;
   --light-purple: #7A6DEC;
@@ -256,6 +257,7 @@ footer .copyright {
 :root {
   --white: white;
   --black: black;
+  --grayish-black: rgb(75, 75, 75);
   --main-purple: #3724e3;
   --shade-purple: #2b25d93c;
   --light-purple: #7A6DEC;
