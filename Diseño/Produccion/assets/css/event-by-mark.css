@@ -718,14 +718,25 @@ footer .copyright {
   padding: 3%;
   align-items: center;
 }
-.resultDisplay ul {
-  width: 25%;
+.resultDisplay .results {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.resultDisplay .results ul:first-of-type li:first-of-type {
+  font-weight: 500;
+}
+.resultDisplay .results ul {
+  width: 30%;
   display: flex;
   flex-direction: column;
   margin: 2%;
   align-items: center;
+  -color: aliceblue;
 }
-.resultDisplay ul li {
+.resultDisplay .results ul li {
   pad: 1.5%;
   display: flex;
   justify-content: flex-start;
@@ -733,11 +744,15 @@ footer .copyright {
   width: 100%;
   margin: 1%;
 }
-.resultDisplay ul li .name {
+.resultDisplay .results ul li img {
+  margin: 3%;
+}
+.resultDisplay .results ul li .name {
+  width: 50%;
   margin-right: 15%;
   font-size: 1.2em;
 }
-.resultDisplay ul li .time {
+.resultDisplay .results ul li .time {
   font-size: 1.5em;
   font-weight: 500;
 }/*# sourceMappingURL=event-by-mark.css.map */
