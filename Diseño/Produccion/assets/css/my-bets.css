@@ -147,4 +147,120 @@ footer .copyright {
 
 * {
   font-family: "Manrope", sans-serif;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 65vh;
+}
+main .principal {
+  padding: 0 2% 0 2%;
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+}
+main .principal .bets-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 80%;
+  height: 20vh;
+  justify-content: space-evenly;
+}
+main .principal .bets-manager h1 {
+  padding-bottom: 1%;
+}
+main .principal .bets-manager .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+}
+main .principal .bets-manager .buttons button {
+  background-color: var(--white);
+  height: 5vh;
+  width: 6vw;
+  border: 1px solid var(--black);
+  border-radius: 10px;
+  padding: 1% 3%;
+  transition: 0.5s;
+}
+main .principal .bets-manager .buttons button:hover {
+  border: 1px solid var(--main-purple);
+  background-color: var(--main-purple);
+  filter: drop-shadow(-5px 10px 10px var(--shade-purple));
+  color: var(--white);
+}
+main .principal .points {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-evenly;
+}
+main .principal .points h2 {
+  font-size: 1.5em;
+}
+main .principal .points p {
+  width: auto;
+  font-size: 1.5em;
+  text-align: right;
+}
+main .bets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: var(--gray);
+}
+main .bets .bet {
+  width: 30%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 20px;
+  filter: drop-shadow(-10px 10px 10px var(--shade-purple));
+  margin: 2%;
+}
+main .bets .bet .your-bet {
+  font-size: 1em;
+  width: 90%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+  background-color: var(--white);
+  filter: drop-shadow(-5px 5px 10px var(--shade-purple));
+  border-radius: 20px 20px 0 0;
+}
+main .bets .bet .your-bet .bet-points {
+  font-weight: 700;
+}
+main .bets .bet .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  align-items: center;
+}
+main .bets .bet .info img {
+  padding: 3% 0;
+  width: 15%;
+}
+main .bets .bet .info .equipo {
+  font-weight: bold;
+}
+main .bets .bet .info p:first-of-type {
+  font-size: 2em;
 }/*# sourceMappingURL=my-bets.css.map */

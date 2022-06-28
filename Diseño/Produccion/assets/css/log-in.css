@@ -197,7 +197,7 @@ body .general .main .sing-up-section a {
   padding: 0;
   text-decoration: none;
   color: var(--black);
-  font-weight: bold;
+  font-weight: 700;
 }
 body .general .main .form {
   width: 70%;

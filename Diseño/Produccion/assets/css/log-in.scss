@@ -53,7 +53,7 @@ body{
                 border-top: 1px solid var(--black);
                 a{
                     @include set-a-link;
-                    font-weight: bold;
+                    font-weight: 700;
                 }
                 
             }
