@@ -114,6 +114,114 @@ header nav .header-nav-container-2 button:hover {
   transform: rotate(90deg);
 }
 
+header {
+  height: 5vh;
+  padding: 1% 1.5%;
+  background-color: var(--white);
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .log-in-header-nav-container-1 {
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav .log-in-header-nav-container-1 a {
+  padding: 0;
+  text-decoration: none;
+  color: var(--black);
+  padding: 0 10% 0 0;
+}
+header nav .log-in-header-nav-container-1 a .material-symbols-outlined {
+  font-size: 2.2em;
+  transition: 0.2s;
+}
+header nav .log-in-header-nav-container-1 a .material-symbols-outlined:hover {
+  color: var(--main-purple);
+  transform: rotate(-5deg);
+}
+header nav .nav-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10vw;
+  height: 5vh;
+  transition: 0.2s;
+}
+header nav .nav-logo:hover {
+  filter: drop-shadow(0 0 20px var(--shade-purple));
+}
+header .log-in-header-nav-container-2 {
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .log-in-header-nav-container-2 .nav-searchbar {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input {
+  height: 3vh;
+  width: 15vw;
+  border: none;
+  background-color: var(--gray);
+  border-radius: 10px;
+  padding: 1.5% 5%;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input::-moz-placeholder {
+  font-weight: 500;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input:-ms-input-placeholder {
+  font-weight: 500;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input::placeholder {
+  font-weight: 500;
+}
+header .log-in-header-nav-container-2 .nav-searchbar button {
+  border: none;
+  background-color: var(--white);
+  margin: 5%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+header .log-in-header-nav-container-2 .nav-searchbar button .material-symbols-outlined {
+  font-size: 2.2em;
+}
+header .log-in-header-nav-container-2 .nav-searchbar button:hover {
+  color: var(--main-purple);
+  transform: scale(1.1, 1.1);
+}
+header .log-in-header-nav-container-2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  text-decoration: none;
+  border: none;
+  background-color: var(--white);
+  transition: 0.5s;
+  cursor: pointer;
+}
+header .log-in-header-nav-container-2 button span {
+  font-size: 2.5em;
+}
+header .log-in-header-nav-container-2 button:hover {
+  transform: rotate(90deg);
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -277,6 +385,114 @@ header nav .header-nav-container-2 button span {
   font-size: 2.5em;
 }
 header nav .header-nav-container-2 button:hover {
+  transform: rotate(90deg);
+}
+
+header {
+  height: 5vh;
+  padding: 1% 1.5%;
+  background-color: var(--white);
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .log-in-header-nav-container-1 {
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav .log-in-header-nav-container-1 a {
+  padding: 0;
+  text-decoration: none;
+  color: var(--black);
+  padding: 0 10% 0 0;
+}
+header nav .log-in-header-nav-container-1 a .material-symbols-outlined {
+  font-size: 2.2em;
+  transition: 0.2s;
+}
+header nav .log-in-header-nav-container-1 a .material-symbols-outlined:hover {
+  color: var(--main-purple);
+  transform: rotate(-5deg);
+}
+header nav .nav-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10vw;
+  height: 5vh;
+  transition: 0.2s;
+}
+header nav .nav-logo:hover {
+  filter: drop-shadow(0 0 20px var(--shade-purple));
+}
+header .log-in-header-nav-container-2 {
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .log-in-header-nav-container-2 .nav-searchbar {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input {
+  height: 3vh;
+  width: 15vw;
+  border: none;
+  background-color: var(--gray);
+  border-radius: 10px;
+  padding: 1.5% 5%;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input::-moz-placeholder {
+  font-weight: 500;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input:-ms-input-placeholder {
+  font-weight: 500;
+}
+header .log-in-header-nav-container-2 .nav-searchbar input::placeholder {
+  font-weight: 500;
+}
+header .log-in-header-nav-container-2 .nav-searchbar button {
+  border: none;
+  background-color: var(--white);
+  margin: 5%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+header .log-in-header-nav-container-2 .nav-searchbar button .material-symbols-outlined {
+  font-size: 2.2em;
+}
+header .log-in-header-nav-container-2 .nav-searchbar button:hover {
+  color: var(--main-purple);
+  transform: scale(1.1, 1.1);
+}
+header .log-in-header-nav-container-2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  text-decoration: none;
+  border: none;
+  background-color: var(--white);
+  transition: 0.5s;
+  cursor: pointer;
+}
+header .log-in-header-nav-container-2 button span {
+  font-size: 2.5em;
+}
+header .log-in-header-nav-container-2 button:hover {
   transform: rotate(90deg);
 }
 
