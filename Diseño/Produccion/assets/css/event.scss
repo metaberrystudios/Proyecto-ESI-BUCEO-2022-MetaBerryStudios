@@ -1,34 +1,7 @@
 @import './_main.scss';
 @import './variables/_variables.scss';
-.innerNav {
-    height: 5vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-    padding: 1.5% 3%;
-    border-bottom: 1px solid black;
-    ul {
-        display: flex;
-        align-items: center;
+@include InnerNav;
 
-        li {
-            display: flex;
-            align-items: center;
-            list-style: none;
-            font-size: 1.2em;
-            font-weight: 700;
-            margin-left: 20%;
-            text-align: center;
-            height: 5vh;
-
-        }
-
-        li:hover {
-            border-bottom: 3px black solid;
-        }
-    }
-}
 
 .display {
     display: flex;

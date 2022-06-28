@@ -740,7 +740,8 @@ footer .copyright {
   z-index: 2;
   filter: drop-shadow(-10px 15px 20px var(--shade-purple));
 }
-.resultDisplay .event-container .event-title-holder .event-title, .resultDisplay .event-container .event-title-holder .event-state {
+.resultDisplay .event-container .event-title-holder .event-title,
+.resultDisplay .event-container .event-title-holder .event-state {
   padding: 0;
   text-decoration: none;
   color: var(--black);
