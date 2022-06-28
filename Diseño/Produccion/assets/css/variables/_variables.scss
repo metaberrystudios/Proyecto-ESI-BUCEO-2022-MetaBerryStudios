@@ -172,6 +172,7 @@
 //Inner NAV
 @mixin InnerNav {
   .innerNav {
+    background-color: var(--gray);
     width: 100%;
     height: 10vh;
     display: flex;
@@ -180,7 +181,6 @@
     margin: 0;
     padding: 0;
     // padding: 1.5% 3%;
-    border-bottom: 1px solid black;
 
     ul {
       display: flex;
