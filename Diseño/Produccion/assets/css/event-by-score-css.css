@@ -553,12 +553,12 @@ footer .copyright {
 }
 
 .innerNav {
-  height: 5vh;
+  width: 100vw;
+  height: 10vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  padding: 1.5% 3%;
   border-bottom: 1px solid black;
 }
 .innerNav ul {
