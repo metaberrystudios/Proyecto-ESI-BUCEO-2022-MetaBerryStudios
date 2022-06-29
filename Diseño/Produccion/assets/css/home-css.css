@@ -5,6 +5,7 @@
   --grayish-black: rgb(75, 75, 75);
   --main-purple: #3724e3;
   --shade-purple: #2b25d93c;
+  --shade-scnd-purple: #2b25d91e;
   --light-purple: #7A6DEC;
   --lightest-purple: #BCB6F6;
   --gray: #EBECEF;
@@ -21,14 +22,22 @@
 }
 
 header {
-  height: 5vh;
-  padding: 1% 1.5%;
+  width: 100%;
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 4;
   background-color: var(--white);
 }
 header nav {
+  width: 100%;
+  height: 10vh;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 header nav .header-nav-container-1 {
   width: 50%;
@@ -36,6 +45,7 @@ header nav .header-nav-container-1 {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  padding: 0 1.5%;
 }
 header nav .header-nav-container-1 a {
   margin: 0 3% 0 0;
@@ -55,6 +65,7 @@ header nav .header-nav-container-1 a:first-of-type {
 }
 header nav .header-nav-container-2 {
   width: 50%;
+  padding: 0 1.5%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -115,23 +126,30 @@ header nav .header-nav-container-2 button:hover {
 }
 
 header {
-  height: 5vh;
-  padding: 1% 1.5%;
-  background-color: var(--white);
+  width: 100%;
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 4;
 }
 header nav {
+  width: 100%;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 header nav .log-in-header-nav-container-1 {
-  width: 20vw;
+  width: 15vw;
   height: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  padding: 0 1.5%;
 }
 header nav .log-in-header-nav-container-1 a {
   padding: 0;
@@ -159,8 +177,8 @@ header nav .nav-logo:hover {
   filter: drop-shadow(0 0 20px var(--shade-purple));
 }
 header .log-in-header-nav-container-2 {
-  width: 20vw;
   height: 5vh;
+  padding: 0 1.5%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -254,6 +272,12 @@ footer .copyright {
   font-size: 0.7em;
 }
 
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -271,14 +295,14 @@ main {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 20px;
-  filter: drop-shadow(-5px 5px 15px var(--shade-purple));
-  margin: 3% 0;
+  filter: drop-shadow(-10px 15px 10px var(--shade-scnd-purple));
+  margin: 7% 0 3% 0;
 }
 .create-a-post-container .create-a-post-header {
   width: 100%;
   background-color: var(--white);
   border-radius: 20px 20px 0 0;
-  filter: drop-shadow(0 10px 15px var(--shade-purple));
+  filter: drop-shadow(5px 15px 10px var(--shade-scnd-purple));
 }
 .create-a-post-container .create-a-post-header .cap-header {
   padding: 3% 5%;
@@ -310,7 +334,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 0 3%;
 }
 .create-a-post-container .create-a-post-body .cap-container .cap-form .cap-text {
@@ -340,7 +364,7 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 3vw;
-  padding: 3% 7%;
+  padding: 1.5% 7%;
   border: none;
   border-radius: 10px;
   background-color: var(--main-purple);
@@ -370,7 +394,7 @@ main {
   margin: 3% 0 10% 0;
   background-color: var(--white);
   border-radius: 20px;
-  filter: drop-shadow(-10px 15px 20px var(--shade-purple));
+  filter: drop-shadow(-10px 15px 10px var(--shade-scnd-purple));
 }
 .feed-section .event-container .event-title-holder {
   width: 100%;
@@ -382,7 +406,7 @@ main {
   background-color: var(--white);
   border-radius: 20px 20px 0 0;
   z-index: 2;
-  filter: drop-shadow(-10px 15px 20px var(--shade-purple));
+  filter: drop-shadow(-5px 15px 10px var(--shade-scnd-purple));
 }
 .feed-section .event-container .event-title-holder .event-title,
 .feed-section .event-container .event-title-holder .event-state {
@@ -431,14 +455,14 @@ main {
 }
 .feed-section .user-post-container {
   width: 30vw;
-  height: 23vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
   margin: 0 0 10% 0;
   background-color: var(--white);
   border-radius: 20px;
-  filter: drop-shadow(-10px 15px 20px var(--shade-purple));
+  filter: drop-shadow(-10px 15px 5px var(--shade-scnd-purple));
 }
 .feed-section .user-post-container .user-post-title-holder {
   width: 100%;
@@ -450,7 +474,7 @@ main {
   background-color: var(--white);
   border-radius: 20px 20px 0 0;
   z-index: 2;
-  filter: drop-shadow(-10px 15px 20px var(--shade-purple));
+  filter: drop-shadow(-5px 15px 10px var(--shade-scnd-purple));
 }
 .feed-section .user-post-container .user-post-title-holder .event-user-profile-img {
   width: 3vw;
@@ -468,18 +492,23 @@ main {
 }
 .feed-section .user-post-container .user-post-title-holder .user-post-info .post-info-date {
   font-weight: 500;
+  font-size: 0.8em;
 }
 .feed-section .user-post-container .user-post-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   width: 100%;
-  height: 5vh;
-  padding: 3% 5%;
+  padding: 5% 0;
 }
 .feed-section .user-post-container .user-post-holder .post-body {
   font-weight: 600;
+  padding: 0 5%;
 }
 .feed-section .user-post-container .actions-holder {
   width: 100%;
-  height: 5vh;
+  height: 6vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -532,6 +561,9 @@ main {
 .feed-section .event-container .event-title-holder .event-title-info .event-title, .feed-section .event-container .event-title-holder .event-title-info .event-state {
   padding: 0;
 }
+.feed-section .event-container .event-title-holder .event-title-info .event-title {
+  font-weight: 700;
+}
 .feed-section .event-container .event-title-holder .event-title-info .event-state {
   font-size: 0.8em;
 }
@@ -561,4 +593,51 @@ main {
 }
 .feed-section .event-container .actions-holder .action-text {
   font-weight: 600;
+}
+
+.favorite-teams-container {
+  width: 15vw;
+  height: 35vh;
+  background-color: var(--white);
+  border-radius: 20px;
+  filter: drop-shadow(-10px 15px 10px var(--shade-scnd-purple));
+  position: fixed;
+  left: 0;
+  margin: 7% 5%;
+}
+.favorite-teams-container .favorite-teams-header {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-purple);
+  border-radius: 20px 20px 0 0;
+  z-index: 2;
+  filter: drop-shadow(-5px 15px 10px var(--shade-scnd-purple));
+}
+.favorite-teams-container .favorite-teams-header .ft-header {
+  font-weight: 700;
+  padding: 0 10%;
+  color: var(--white);
+}
+.favorite-teams-container .favorite-teams-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 3% 0;
+}
+.favorite-teams-container .favorite-teams-body .team-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5% 10%;
+}
+.favorite-teams-container .favorite-teams-body .team-container .team-name {
+  font-weight: 600;
+  padding: 0 5%;
 }/*# sourceMappingURL=home-css.css.map */
