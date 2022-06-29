@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100%;
   background-color: var(--white);
 
@@ -20,15 +19,15 @@ body {
 
     .personal-data-container{
 
-      width: 100%;
+      width: 20vw;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
 
       label{
 
-        width: 7vw;
+        width: 9vw;
         display: flex;
         flex-direction: column;
         font-size: 1em;
@@ -38,11 +37,11 @@ body {
 
         input{
 
-          width: 7vw;
+          width: 8.5vw;
           height: 5vh;
           border: none;
           border-radius: 10px;
-          padding: 0 3%;
+          padding: 0 5%;
           margin: 5% 0;
           font-weight: 600;
 
@@ -52,7 +51,7 @@ body {
 
         label:last-of-type{
 
-          width: 7vw;
+          width: 9vw;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
@@ -63,11 +62,11 @@ body {
 
           input{
 
-            width: 7vw;
+            width: 8.5vw;
             height: 5vh;
             border: none;
             border-radius: 10px;
-            padding: 0 3%;
+            padding: 0 5%;
             margin: 5% 0;
             font-weight: 600;
 
@@ -77,16 +76,25 @@ body {
 
     }
 
+    .form{
+
+      width: 25vw;
+      height: 55vh;
+
+    }
+
     .sign-log-up-section{
 
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
+      justify-content: center;
       align-items: flex-end;
+      padding: 0;
 
     }
 
   }
+  
 
   // .general {
   //   display: flex;

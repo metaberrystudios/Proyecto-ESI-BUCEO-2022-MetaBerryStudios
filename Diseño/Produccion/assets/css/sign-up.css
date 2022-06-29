@@ -389,7 +389,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100%;
   background-color: var(--white);
 }
@@ -399,14 +398,14 @@ body .sign-log-form-container {
   margin: 20% 0 10% 0;
 }
 body .sign-log-form-container .personal-data-container {
-  width: 100%;
+  width: 20vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 body .sign-log-form-container .personal-data-container label {
-  width: 7vw;
+  width: 9vw;
   display: flex;
   flex-direction: column;
   font-size: 1em;
@@ -415,16 +414,16 @@ body .sign-log-form-container .personal-data-container label {
   font-weight: 600;
 }
 body .sign-log-form-container .personal-data-container label input {
-  width: 7vw;
+  width: 8.5vw;
   height: 5vh;
   border: none;
   border-radius: 10px;
-  padding: 0 3%;
+  padding: 0 5%;
   margin: 5% 0;
   font-weight: 600;
 }
 body .sign-log-form-container .personal-data-container label:last-of-type {
-  width: 7vw;
+  width: 9vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -434,17 +433,22 @@ body .sign-log-form-container .personal-data-container label:last-of-type {
   font-weight: 600;
 }
 body .sign-log-form-container .personal-data-container label:last-of-type input {
-  width: 7vw;
+  width: 8.5vw;
   height: 5vh;
   border: none;
   border-radius: 10px;
-  padding: 0 3%;
+  padding: 0 5%;
   margin: 5% 0;
   font-weight: 600;
+}
+body .sign-log-form-container .form {
+  width: 25vw;
+  height: 55vh;
 }
 body .sign-log-form-container .sign-log-up-section {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
+  padding: 0;
 }/*# sourceMappingURL=sign-up.css.map */
