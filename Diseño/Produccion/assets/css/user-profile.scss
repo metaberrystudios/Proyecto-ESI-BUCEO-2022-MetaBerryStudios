@@ -3,7 +3,7 @@
 
 .userDisplay {
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +28,12 @@
                 font-weight: 700;
                 font-size: 1.2em;
             }
+            .email{
+                font-size: 0.8em;
+            }
+            .points{
+                font-weight: 600;
+            }
 
         }
     
@@ -40,15 +46,12 @@
   
 }
 .display {
-    @include set-event;
+    @include set-post;
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: var(--gray);
-    .event-container {
-        margin: 2%;
-
+    .user-post-container{
+        margin: 1% 3%;
     }
-
-
 }
