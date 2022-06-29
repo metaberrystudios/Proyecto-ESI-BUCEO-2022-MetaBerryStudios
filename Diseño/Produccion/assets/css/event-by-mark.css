@@ -829,6 +829,7 @@ footer .copyright {
   margin-left: 20%;
   text-align: center;
   height: 5vh;
+  cursor: pointer;
 }
 .innerNav ul li:hover {
   border-bottom: 3px black solid;

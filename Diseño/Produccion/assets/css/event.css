@@ -425,6 +425,7 @@ footer .copyright {
   margin-left: 20%;
   text-align: center;
   height: 5vh;
+  cursor: pointer;
 }
 .innerNav ul li:hover {
   border-bottom: 3px black solid;
@@ -447,17 +448,18 @@ footer .copyright {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(-10px 10px 10px var(--shade-purple));
+  filter: drop-shadow(-5px 10px 10px var(--shade-scnd-purple));
 }
 .display .renderArea .card .title {
   border-radius: 20px 20px 0 0;
   padding: 3% 5%;
   width: 90%;
-  background-color: var(--white);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   z-index: 2;
+  background-color: var(--white);
+  filter: drop-shadow(-5px 10px 10px var(--shade-scnd-purple));
 }
 .display .renderArea .card .title p {
   font-size: 1.2em;
@@ -477,6 +479,10 @@ footer .copyright {
 .display .sideData .about {
   padding: 3% 5%;
   height: 15vh;
+  width: 30vw;
+  background-color: var(--white);
+  border-radius: 20px;
+  filter: drop-shadow(-5px 10px 10px var(--shade-scnd-purple));
 }
 .display .sideData .about h3 {
   display: flex;
