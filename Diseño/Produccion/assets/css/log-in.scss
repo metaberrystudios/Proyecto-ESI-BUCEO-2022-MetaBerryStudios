@@ -13,7 +13,7 @@ body {
   width: 100%;
   background-color: var(--white);
 
-  .login-form-container {
+  .sign-log-form-container {
 
     width: 25vw;
     height: 50vh;
@@ -22,10 +22,10 @@ body {
     align-items: center;
     margin: 0 0 20% 0;
     background-color: var(--gray);
-    filter: drop-shadow(-5px 10px 10px var(--shade-scnd-purple));
+    filter: drop-shadow(-5px 10px 10px var(--shade-purple));
     border-radius: 20px;
 
-    .login-form-head{
+    .sign-log-form-head{
 
       width: 100%;
       height: 7vh;
@@ -196,7 +196,7 @@ body {
   
   }
 
-  .sign-up-section{
+  .sign-log-up-section{
 
     width: 100%;
     display: flex;
