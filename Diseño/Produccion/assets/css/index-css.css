@@ -343,7 +343,8 @@ footer .copyright {
   z-index: 2;
   filter: drop-shadow(-10px 15px 20px var(--shade-purple));
 }
-.event-section .event-group-container .event-container .event-title-holder .event-title, .event-section .event-group-container .event-container .event-title-holder .event-state {
+.event-section .event-group-container .event-container .event-title-holder .event-title,
+.event-section .event-group-container .event-container .event-title-holder .event-state {
   padding: 0;
   text-decoration: none;
   color: var(--black);

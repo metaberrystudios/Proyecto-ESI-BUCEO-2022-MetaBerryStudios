@@ -553,13 +553,14 @@ footer .copyright {
 }
 
 .innerNav {
-  height: 5vh;
+  background-color: var(--gray);
+  width: 100%;
+  height: 10vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  padding: 1.5% 3%;
-  border-bottom: 1px solid black;
+  padding: 0;
 }
 .innerNav ul {
   display: flex;
@@ -625,7 +626,7 @@ footer .copyright {
 }
 .display .sideData .about {
   padding: 3% 5%;
-  height: 25vh;
+  height: 15vh;
 }
 .display .sideData .about h3 {
   display: flex;
@@ -711,7 +712,6 @@ footer .copyright {
 }
 
 .resultDisplay {
-  border-bottom: 1px black solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -740,7 +740,8 @@ footer .copyright {
   z-index: 2;
   filter: drop-shadow(-10px 15px 20px var(--shade-purple));
 }
-.resultDisplay .event-container .event-title-holder .event-title, .resultDisplay .event-container .event-title-holder .event-state {
+.resultDisplay .event-container .event-title-holder .event-title,
+.resultDisplay .event-container .event-title-holder .event-state {
   padding: 0;
   text-decoration: none;
   color: var(--black);

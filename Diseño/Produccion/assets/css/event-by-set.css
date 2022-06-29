@@ -553,13 +553,14 @@ footer .copyright {
 }
 
 .innerNav {
-  height: 5vh;
+  background-color: var(--gray);
+  width: 100%;
+  height: 10vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  padding: 1.5% 3%;
-  border-bottom: 1px solid black;
+  padding: 0;
 }
 .innerNav ul {
   display: flex;
@@ -625,7 +626,7 @@ footer .copyright {
 }
 .display .sideData .about {
   padding: 3% 5%;
-  height: 25vh;
+  height: 15vh;
 }
 .display .sideData .about h3 {
   display: flex;
@@ -711,12 +712,11 @@ footer .copyright {
 }
 
 .resultDisplay {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px black solid;
 }
 .resultDisplay .player {
   width: 50%;

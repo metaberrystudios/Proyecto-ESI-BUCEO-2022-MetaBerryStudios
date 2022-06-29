@@ -387,7 +387,8 @@ main {
   z-index: 2;
   filter: drop-shadow(-10px 15px 20px var(--shade-purple));
 }
-.scores-section .default-main-section .event-group-container .event-container .event-title-holder .event-title, .scores-section .default-main-section .event-group-container .event-container .event-title-holder .event-state {
+.scores-section .default-main-section .event-group-container .event-container .event-title-holder .event-title,
+.scores-section .default-main-section .event-group-container .event-container .event-title-holder .event-state {
   padding: 0;
   text-decoration: none;
   color: var(--black);
