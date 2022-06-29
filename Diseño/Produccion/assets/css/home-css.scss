@@ -3,12 +3,11 @@
 main{
 
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--gray)
+    background-color: var(--gray);
 
 }
 
@@ -123,4 +122,111 @@ main{
         }
 
     }
+}
+
+.feed-section{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include set-event;
+    @include set-post;
+
+    .event-container{
+
+        width: 30vw;
+        height: 35vh;
+        margin: 0 0 3% 0;
+
+        .event-title-holder{
+
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            .event-user-profile-img{
+
+                width: 3vw;
+                height: 3vw;
+                border-radius: 50%;
+                margin: 0 3% 0 5%;
+
+            }
+
+            .event-title-info{
+
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .event-title, .event-state{
+
+                    padding: 0;
+
+                }
+
+                .event-state{
+
+                    font-size: 0.8em;
+
+                }
+
+
+            }
+            
+
+        }
+
+        .actions-holder{
+    
+            width: 100%;
+            height: 6vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: var(--gray);
+            border-radius: 0 0 20px 20px;
+
+            span{
+
+                font-size: 2em;
+                padding: 5% 0% 5% 5%;
+                color: var(--main-purple);
+                transition: 0.2s;
+                cursor: pointer;
+
+            }
+
+            span:last-of-type{
+
+                font-size: 1em;
+                padding: 5% 0 5% 3%;
+
+            }
+
+            .material-symbols-outlined:hover{
+
+                transform: rotate(-5deg);
+
+            }
+
+            .action-text{
+
+                font-weight: 600;
+
+
+            }
+    
+        }
+        
+    }
+    
+
 }
