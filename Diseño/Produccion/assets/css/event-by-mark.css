@@ -947,94 +947,70 @@ footer .copyright {
   filter: none;
   border-radius: 10px;
 }
-.display .create-a-post-container {
-  width: 35vw;
-  height: 25vh;
+.display .post {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  width: 30vw;
+  height: 10vh;
+  padding: 3% 5%;
   background-color: var(--white);
   border-radius: 20px;
-  filter: drop-shadow(-10px 15px 10px var(--shade-scnd-purple));
-  margin: 7% 0 3% 0;
+  margin: 5% 0;
+  filter: drop-shadow(-5px 10px 10px var(--shade-scnd-purple));
 }
-.display .create-a-post-container .create-a-post-header {
+.display .post .cta {
   width: 100%;
-  background-color: var(--white);
-  border-radius: 20px 20px 0 0;
-  filter: drop-shadow(5px 15px 10px var(--shade-scnd-purple));
-}
-.display .create-a-post-container .create-a-post-header .cap-header {
-  padding: 3% 5%;
-  font-size: 1.2em;
-  font-weight: 600;
-}
-.display .create-a-post-container .create-a-post-body {
-  width: 100%;
-  height: 25vh;
+  height: 10vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.display .create-a-post-container .create-a-post-body .cap-container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-}
-.display .create-a-post-container .create-a-post-body .cap-container .cap-user-profile-img {
-  width: 3vw;
-  height: 3vw;
-  border-radius: 50%;
-}
-.display .create-a-post-container .create-a-post-body .cap-container .cap-form {
-  width: 25vw;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
-  margin: 0 3%;
 }
-.display .create-a-post-container .create-a-post-body .cap-container .cap-form .cap-text {
-  width: 18vw;
-  height: 7vh;
-  border: none;
-  resize: none;
-  border-radius: 10px;
-  padding: 3% 5%;
-  background-color: var(--gray);
-}
-.display .create-a-post-container .create-a-post-body .cap-container .cap-form .cap-text::-moz-placeholder {
+.display .post .cta p:first-of-type {
   font-weight: 600;
-  font-size: 1.2em;
 }
-.display .create-a-post-container .create-a-post-body .cap-container .cap-form .cap-text:-ms-input-placeholder {
-  font-weight: 600;
-  font-size: 1.2em;
+.display .post form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.display .create-a-post-container .create-a-post-body .cap-container .cap-form .cap-text::placeholder {
-  font-weight: 600;
-  font-size: 1.2em;
-}
-.display .create-a-post-container .create-a-post-body .cap-container .cap-form .cap-post {
+.display .post form .post-input {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  width: 3vw;
-  padding: 1.5% 7%;
+  width: 25vw;
+}
+.display .post form .post-input img {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 100%;
+  margin: 2%;
+}
+.display .post form .post-input input {
+  background-color: var(--gray);
   border: none;
+  width: 20vw;
   border-radius: 10px;
-  background-color: var(--main-purple);
-  filter: drop-shadow(-5px 5px 10px var(--shade-purple));
-  color: var(--white);
-  font-weight: 600;
+  height: 5vh;
+  padding: 0 3%;
+}
+.display .post form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 2%;
+  background-color: var(--light-purple);
+  border-radius: 50%;
   transition: 0.2s;
 }
-.display .create-a-post-container .create-a-post-body .cap-container .cap-form .cap-post:hover {
-  background-color: var(--light-purple);
+.display .post form button span {
+  font-weight: 400;
+  color: var(--white);
+}
+.display .post form button:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
 }
 
 * {
@@ -1042,6 +1018,7 @@ footer .copyright {
 }
 
 .resultDisplay {
+  height: 50vh;
   display: flex;
   justify-content: center;
   font-size: 1.2em;
