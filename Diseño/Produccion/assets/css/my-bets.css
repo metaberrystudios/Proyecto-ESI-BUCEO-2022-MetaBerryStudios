@@ -395,6 +395,7 @@ main {
   height: 65vh;
 }
 main .principal {
+  margin-top: 10vh;
   padding: 0 2% 0 2%;
   display: flex;
   flex-direction: row;
@@ -456,7 +457,7 @@ main .bets .bet {
   height: 35vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: var(--white);
   border-radius: 20px;
@@ -483,12 +484,11 @@ main .bets .bet .info {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 25vh;
   align-items: center;
 }
 main .bets .bet .info img {
   padding: 3% 0;
-  width: 15%;
 }
 main .bets .bet .info .equipo {
   font-weight: bold;

@@ -14,6 +14,7 @@ main {
   height: 65vh;
 
   .principal {
+    margin-top: 10vh;
     padding: 0 2% 0 2%;
     display: flex;
     flex-direction: row;
@@ -74,7 +75,7 @@ main {
       height: 35vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       background-color: var(--white);
       border-radius: 20px;
@@ -102,11 +103,10 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 30vh;
+        height: 25vh;
         align-items: center;
         img {
           padding: 3% 0;
-          width: 15%;
         }
         .equipo {
           font-weight: bold;
