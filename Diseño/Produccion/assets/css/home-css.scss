@@ -30,6 +30,7 @@ main{
     border-radius: 20px;
     filter: drop-shadow(-10px 15px 10px var(--shade-scnd-purple));
     margin: 7% 0 3% 0;
+    @include set-a-link;
 
     .create-a-post-header{
 
@@ -141,6 +142,7 @@ main{
     align-items: center;
     @include set-event;
     @include set-post;
+    @include set-a-link;
 
     .event-container{
 
@@ -255,6 +257,7 @@ main{
     position: fixed;
     left: 0;
     margin: 7% 5%;
+    @include set-a-link;
     
     .favorite-teams-header{
 
@@ -300,6 +303,7 @@ main{
 
                 font-weight: 600;
                 padding: 0 5%;
+                @include set-a-link;
 
             }
 
