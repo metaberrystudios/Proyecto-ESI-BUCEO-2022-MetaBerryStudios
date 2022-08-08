@@ -493,9 +493,10 @@ footer .copyright {
   font-size: 3em;
 }
 .hero-section .hero-section-text h1 span {
-  -webkit-text-decoration: underline 5px wavy var(--main-purple);
+  color: var(--main-purple);
+  /* -webkit-text-decoration: underline 5px wavy var(--main-purple);
           text-decoration: underline 5px wavy var(--main-purple);
-  text-underline-offset: 10px;
+  text-underline-offset: 10px; */
 }
 .hero-section .hero-section-text h2 {
   font-size: 1.5em;
