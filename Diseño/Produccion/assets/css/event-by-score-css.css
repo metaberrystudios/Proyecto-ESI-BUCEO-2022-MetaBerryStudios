@@ -465,6 +465,19 @@ footer .copyright {
   right: 0;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-purple);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-purple);
+}
+
 :root {
   --white: white;
   --black: black;
@@ -951,6 +964,19 @@ footer .copyright {
   position: absolute;
   bottom: -30px;
   right: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-purple);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-purple);
 }
 
 :root {
